@@ -255,8 +255,8 @@
 		18560B5F1D485242008A6C58 /* BH_D_Section_Details_FirstSection_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BH_D_Section_Details_FirstSection_VC.m; sourceTree = "<group>"; };
 		18560B621D485242008A6C58 /* BH_D_Section_Details_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BH_D_Section_Details_VC.h; sourceTree = "<group>"; };
 		18560B631D485242008A6C58 /* BH_D_Section_Details_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BH_D_Section_Details_VC.m; sourceTree = "<group>"; };
-		18560B671D485606008A6C58 /* BH_D_Section_Details_FirstSec_Details_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BH_D_Section_Details_FirstSec_Details_VC.h; path = ../BH_D_Section_Details_FirstSec_Details_VC.h; sourceTree = "<group>"; };
-		18560B681D485606008A6C58 /* BH_D_Section_Details_FirstSec_Details_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BH_D_Section_Details_FirstSec_Details_VC.m; path = ../BH_D_Section_Details_FirstSec_Details_VC.m; sourceTree = "<group>"; };
+		18560B671D485606008A6C58 /* BH_D_Section_Details_FirstSec_Details_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BH_D_Section_Details_FirstSec_Details_VC.h; sourceTree = "<group>"; };
+		18560B681D485606008A6C58 /* BH_D_Section_Details_FirstSec_Details_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BH_D_Section_Details_FirstSec_Details_VC.m; sourceTree = "<group>"; };
 		18560BB01D48A6FD008A6C58 /* BH_R_Discount_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BH_R_Discount_Model.h; sourceTree = "<group>"; };
 		18560BB11D48A6FD008A6C58 /* BH_R_Discount_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BH_R_Discount_Model.m; sourceTree = "<group>"; };
 		18560BB41D48A707008A6C58 /* BH_R_LookPack_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BH_R_LookPack_Model.h; sourceTree = "<group>"; };
@@ -365,7 +365,7 @@
 		18C2C8341D51E29C00533639 /* BH_R_Search_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BH_R_Search_TableViewCell.h; sourceTree = "<group>"; };
 		18C2C8351D51E29C00533639 /* BH_R_Search_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BH_R_Search_TableViewCell.m; sourceTree = "<group>"; };
 		18C2C8371D51FCA900533639 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
-		18C2C83B1D51FDD500533639 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
+		18C2C83B1D51FDD500533639 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = ../MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
 		18C2C83D1D51FE3500533639 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		18C2C83F1D51FE4100533639 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		18C2C8411D51FE5D00533639 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
@@ -530,7 +530,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1821A6551D36246E005F83B1 /* SDWebImage  图片 */ = {
+		180D460A1DD9A25F00499BD8 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				18C2C83B1D51FDD500533639 /* AMap.bundle */,
+				18C2C8371D51FCA900533639 /* AMapFoundationKit.framework */,
+				18C2C8451D51FECB00533639 /* AVFoundation.framework */,
+				18C2C8471D51FED900533639 /* AddressBook.framework */,
+				18C2C8431D51FEB800533639 /* AudioToolbox.framework */,
+				18C2C84F1D51FF1C00533639 /* CoreGraphics.framework */,
+				18C2C8491D51FEE900533639 /* CoreTelephony.framework */,
+				18C2C8511D51FF9A00533639 /* MAMapKit.framework */,
+				18C2C84B1D51FEF500533639 /* Security.framework */,
+				18C2C84D1D51FF0A00533639 /* SystemConfiguration.framework */,
+				18C2C83D1D51FE3500533639 /* libc++.tbd */,
+				18C3B05E1D4E0BC800B4EB53 /* libsqlite3.0.tbd */,
+				18C2C8411D51FE5D00533639 /* libstdc++.6.0.9.tbd */,
+				18C2C83F1D51FE4100533639 /* libz.tbd */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
+		1821A6551D36246E005F83B1 /* SDWebImage  */ = {
 			isa = PBXGroup;
 			children = (
 				1821A6561D36246E005F83B1 /* MKAnnotationView+WebCache.h */,
@@ -567,27 +588,25 @@
 				1821A6751D36246E005F83B1 /* UIView+WebCacheOperation.h */,
 				1821A6761D36246E005F83B1 /* UIView+WebCacheOperation.m */,
 			);
-			name = "SDWebImage  图片";
-			path = ../SDWebImage;
+			path = "SDWebImage ";
 			sourceTree = "<group>";
 		};
-		1821A6871D362820005F83B1 /* Destination  目的地 */ = {
+		1821A6871D362820005F83B1 /* Destination  */ = {
 			isa = PBXGroup;
 			children = (
 				1821A6881D362820005F83B1 /* Controller */,
 				1821A6891D362820005F83B1 /* Model */,
 				1821A68A1D362820005F83B1 /* View */,
 			);
-			name = "Destination  目的地";
-			path = ThirdPart/Destination;
+			path = "Destination ";
 			sourceTree = "<group>";
 		};
 		1821A6881D362820005F83B1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				18560B5D1D485242008A6C58 /* BH_D_Section_Details_VC */,
 				1821A68B1D362864005F83B1 /* BH_Destination_VC.h */,
 				1821A68C1D362864005F83B1 /* BH_Destination_VC.m */,
-				18560B5D1D485242008A6C58 /* BH_D_Section_Details_VC  目的地详情 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -595,9 +614,9 @@
 		1821A6891D362820005F83B1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				18560B501D472510008A6C58 /* BH_Destination_Model  目的地 */,
-				18560B321D471411008A6C58 /* BH_D_Section_Details_Model  目的地详情 */,
-				18560B4F1D4724E9008A6C58 /* BH_D_Section_Details_Section_Model  目的地热门城市查看全部 */,
+				18560B321D471411008A6C58 /* BH_D_Section_Details_Model  */,
+				18560B4F1D4724E9008A6C58 /* BH_D_Section_Details_Section_Model  */,
+				18560B501D472510008A6C58 /* BH_Destination_Model  */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -605,31 +624,30 @@
 		1821A68A1D362820005F83B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				18560C101D49CB23008A6C58 /* BH_D_HeaderView  头视图 */,
-				186F8F041D407D5F000F2289 /* BH_D_Section  目的地 */,
-				18560C001D49CB18008A6C58 /* BH_D_Section_Details  目的地详情 */,
+				18560C101D49CB23008A6C58 /* BH_D_HeaderView   */,
+				186F8F041D407D5F000F2289 /* BH_D_Section  */,
+				18560C001D49CB18008A6C58 /* BH_D_Section_Details  */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		1821A6941D362A4F005F83B1 /* Community  社区 */ = {
+		1821A6941D362A4F005F83B1 /* Community  */ = {
 			isa = PBXGroup;
 			children = (
 				1821A6951D362A4F005F83B1 /* Controller */,
 				1821A6961D362A4F005F83B1 /* Model */,
 				1821A6971D362A4F005F83B1 /* View */,
 			);
-			name = "Community  社区";
-			path = Community;
+			path = "Community ";
 			sourceTree = "<group>";
 		};
 		1821A6951D362A4F005F83B1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1821A6981D362A97005F83B1 /* BH_Community_VC.h */,
-				1821A6991D362A97005F83B1 /* BH_Community_VC.m */,
 				181727301D4A42730025D396 /* BH_C_SecoundItem_Details_VC.h */,
 				181727311D4A42730025D396 /* BH_C_SecoundItem_Details_VC.m */,
+				1821A6981D362A97005F83B1 /* BH_Community_VC.h */,
+				1821A6991D362A97005F83B1 /* BH_Community_VC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -637,9 +655,9 @@
 		1821A6961D362A4F005F83B1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				18560C181D49CBFA008A6C58 /* BH_C_FirstItem_Model  热议 */,
-				186F8F391D408009000F2289 /* BH_C_SecondItem_Model  版面 */,
-				18560C141D49CBF0008A6C58 /* BH_C_ThirdItem_Model  寻旅伴 */,
+				18560C181D49CBFA008A6C58 /* BH_C_FirstItem_Model  */,
+				186F8F391D408009000F2289 /* BH_C_SecondItem_Model  */,
+				18560C141D49CBF0008A6C58 /* BH_C_ThirdItem_Model  */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -647,33 +665,32 @@
 		1821A6971D362A4F005F83B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				186F8F1B1D407EDE000F2289 /* BH_C_FirstItem  */,
+				186F8F111D407ED6000F2289 /* BH_C_SecondItem  */,
+				186F8F2B1D407F37000F2289 /* BH_C_ThirdItem  */,
 				18F3DB201D3CC75C00EC2E2B /* BH_C_Navigation_CollectionViewCell.h */,
 				18F3DB211D3CC75C00EC2E2B /* BH_C_Navigation_CollectionViewCell.m */,
-				186F8F1B1D407EDE000F2289 /* BH_C_FirstItem  热议 */,
-				186F8F111D407ED6000F2289 /* BH_C_SecondItem  版面 */,
-				186F8F2B1D407F37000F2289 /* BH_C_ThirdItem  寻旅伴 */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		1821A6A11D362B2C005F83B1 /* Mine  我的 */ = {
+		1821A6A11D362B2C005F83B1 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
 				1821A6A21D362B2C005F83B1 /* Controller */,
 				1821A6A31D362B2C005F83B1 /* Model */,
 				1821A6A41D362B2C005F83B1 /* View */,
 			);
-			name = "Mine  我的";
 			path = Mine;
 			sourceTree = "<group>";
 		};
 		1821A6A21D362B2C005F83B1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1821A6A51D362B4F005F83B1 /* BH_Mine_VC.h */,
-				1821A6A61D362B4F005F83B1 /* BH_Mine_VC.m */,
 				18C3B0A91D4ED1D500B4EB53 /* BH_M_Collect_VC.h */,
 				18C3B0AA1D4ED1D500B4EB53 /* BH_M_Collect_VC.m */,
+				1821A6A51D362B4F005F83B1 /* BH_Mine_VC.h */,
+				1821A6A61D362B4F005F83B1 /* BH_Mine_VC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -696,221 +713,203 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		18560B321D471411008A6C58 /* BH_D_Section_Details_Model  目的地详情 */ = {
+		18560B321D471411008A6C58 /* BH_D_Section_Details_Model  */ = {
 			isa = PBXGroup;
 			children = (
+				18560B331D471411008A6C58 /* BH_D_Section_Details_Discount_Model.h */,
+				18560B341D471411008A6C58 /* BH_D_Section_Details_Discount_Model.m */,
+				18560BFD1D49AA4C008A6C58 /* BH_D_Section_Details_FirstSec_Details_Model.h */,
+				18560BFE1D49AA4C008A6C58 /* BH_D_Section_Details_FirstSec_Details_Model.m */,
+				18560B351D471411008A6C58 /* BH_D_Section_Details_HotCity_Model.h */,
+				18560B361D471411008A6C58 /* BH_D_Section_Details_HotCity_Model.m */,
 				18560B371D471411008A6C58 /* BH_D_Section_Details_Model.h */,
 				18560B381D471411008A6C58 /* BH_D_Section_Details_Model.m */,
 				18C2C8591D52033900533639 /* BH_Map_Model.h */,
 				18C2C85A1D52033900533639 /* BH_Map_Model.m */,
-				18560B351D471411008A6C58 /* BH_D_Section_Details_HotCity_Model.h */,
-				18560B361D471411008A6C58 /* BH_D_Section_Details_HotCity_Model.m */,
-				18560BFD1D49AA4C008A6C58 /* BH_D_Section_Details_FirstSec_Details_Model.h */,
-				18560BFE1D49AA4C008A6C58 /* BH_D_Section_Details_FirstSec_Details_Model.m */,
-				18560B331D471411008A6C58 /* BH_D_Section_Details_Discount_Model.h */,
-				18560B341D471411008A6C58 /* BH_D_Section_Details_Discount_Model.m */,
 			);
-			name = "BH_D_Section_Details_Model  目的地详情";
-			path = BH_D_Section_Details_Model;
+			path = "BH_D_Section_Details_Model ";
 			sourceTree = "<group>";
 		};
-		18560B4F1D4724E9008A6C58 /* BH_D_Section_Details_Section_Model  目的地热门城市查看全部 */ = {
+		18560B4F1D4724E9008A6C58 /* BH_D_Section_Details_Section_Model  */ = {
 			isa = PBXGroup;
 			children = (
 				18560B571D472579008A6C58 /* BH_D_Section_Details_FirstSection_Model.h */,
 				18560B581D472579008A6C58 /* BH_D_Section_Details_FirstSection_Model.m */,
 			);
-			name = "BH_D_Section_Details_Section_Model  目的地热门城市查看全部";
-			path = BH_D_Section_Details_Section_Model;
+			path = "BH_D_Section_Details_Section_Model ";
 			sourceTree = "<group>";
 		};
-		18560B501D472510008A6C58 /* BH_Destination_Model  目的地 */ = {
+		18560B501D472510008A6C58 /* BH_Destination_Model  */ = {
 			isa = PBXGroup;
 			children = (
-				18560B531D472510008A6C58 /* BH_Destination_M.h */,
-				18560B541D472510008A6C58 /* BH_Destination_M.m */,
 				18560B511D472510008A6C58 /* BH_D_Smail_Model.h */,
 				18560B521D472510008A6C58 /* BH_D_Smail_Model.m */,
+				18560B531D472510008A6C58 /* BH_Destination_M.h */,
+				18560B541D472510008A6C58 /* BH_Destination_M.m */,
 			);
-			name = "BH_Destination_Model  目的地";
-			path = BH_Destination_Model;
+			path = "BH_Destination_Model ";
 			sourceTree = "<group>";
 		};
-		18560B5D1D485242008A6C58 /* BH_D_Section_Details_VC  目的地详情 */ = {
+		18560B5D1D485242008A6C58 /* BH_D_Section_Details_VC */ = {
 			isa = PBXGroup;
 			children = (
-				180C00D71D5419DB00F0585E /* BH_D_Section_WU_VC.h */,
-				180C00D81D5419DB00F0585E /* BH_D_Section_WU_VC.m */,
-				18560B621D485242008A6C58 /* BH_D_Section_Details_VC.h */,
-				18560B631D485242008A6C58 /* BH_D_Section_Details_VC.m */,
 				18560B671D485606008A6C58 /* BH_D_Section_Details_FirstSec_Details_VC.h */,
 				18560B681D485606008A6C58 /* BH_D_Section_Details_FirstSec_Details_VC.m */,
-				18C2C8561D52018900533639 /* BH_Map_VC.h */,
-				18C2C8571D52018900533639 /* BH_Map_VC.m */,
 				18560B5E1D485242008A6C58 /* BH_D_Section_Details_FirstSection_VC.h */,
 				18560B5F1D485242008A6C58 /* BH_D_Section_Details_FirstSection_VC.m */,
+				18560B621D485242008A6C58 /* BH_D_Section_Details_VC.h */,
+				18560B631D485242008A6C58 /* BH_D_Section_Details_VC.m */,
+				180C00D71D5419DB00F0585E /* BH_D_Section_WU_VC.h */,
+				180C00D81D5419DB00F0585E /* BH_D_Section_WU_VC.m */,
+				18C2C8561D52018900533639 /* BH_Map_VC.h */,
+				18C2C8571D52018900533639 /* BH_Map_VC.m */,
 			);
-			name = "BH_D_Section_Details_VC  目的地详情";
 			path = BH_D_Section_Details_VC;
 			sourceTree = "<group>";
 		};
-		18560BAF1D48A6FD008A6C58 /* BH_R_Discount_Model  抢折扣 */ = {
+		18560BAF1D48A6FD008A6C58 /* BH_R_Discount_Model  */ = {
 			isa = PBXGroup;
 			children = (
 				18560BB01D48A6FD008A6C58 /* BH_R_Discount_Model.h */,
 				18560BB11D48A6FD008A6C58 /* BH_R_Discount_Model.m */,
 			);
-			name = "BH_R_Discount_Model  抢折扣";
-			path = BH_R_Discount_Model;
+			path = "BH_R_Discount_Model ";
 			sourceTree = "<group>";
 		};
-		18560BB31D48A707008A6C58 /* BH_R_LookPack_Model  看锦囊 */ = {
+		18560BB31D48A707008A6C58 /* BH_R_LookPack_Model  */ = {
 			isa = PBXGroup;
 			children = (
-				18560BB41D48A707008A6C58 /* BH_R_LookPack_Model.h */,
-				18560BB51D48A707008A6C58 /* BH_R_LookPack_Model.m */,
 				18560BB61D48A707008A6C58 /* BH_R_LookPackGuides_Model.h */,
 				18560BB71D48A707008A6C58 /* BH_R_LookPackGuides_Model.m */,
+				18560BB41D48A707008A6C58 /* BH_R_LookPack_Model.h */,
+				18560BB51D48A707008A6C58 /* BH_R_LookPack_Model.m */,
 			);
-			name = "BH_R_LookPack_Model  看锦囊";
-			path = BH_R_LookPack_Model;
+			path = "BH_R_LookPack_Model ";
 			sourceTree = "<group>";
 		};
-		18560BBA1D48A7FA008A6C58 /* BH_R_LookPack_VC  看锦囊 */ = {
+		18560BBA1D48A7FA008A6C58 /* BH_R_LookPack_VC */ = {
 			isa = PBXGroup;
 			children = (
 				18560BBB1D48A7FA008A6C58 /* BH_R_LookPack_VC.h */,
 				18560BBC1D48A7FA008A6C58 /* BH_R_LookPack_VC.m */,
 			);
-			name = "BH_R_LookPack_VC  看锦囊";
 			path = BH_R_LookPack_VC;
 			sourceTree = "<group>";
 		};
-		18560BBE1D48A840008A6C58 /* BH_R_Cell_Deails_VC  各分区的详情 */ = {
+		18560BBE1D48A840008A6C58 /* BH_R_Cell_Deails_VC */ = {
 			isa = PBXGroup;
 			children = (
 				1817272D1D4A23030025D396 /* BH_WKWebView_VC.h */,
 				1817272E1D4A23030025D396 /* BH_WKWebView_VC.m */,
 			);
-			name = "BH_R_Cell_Deails_VC  各分区的详情";
 			path = BH_R_Cell_Deails_VC;
 			sourceTree = "<group>";
 		};
-		18560BC21D48A939008A6C58 /* BH_R_LookPack  看锦囊 */ = {
+		18560BC21D48A939008A6C58 /* BH_R_LookPack */ = {
 			isa = PBXGroup;
 			children = (
 				18560BC31D48A939008A6C58 /* BH_R_LookPack_CollectionViewCell.h */,
 				18560BC41D48A939008A6C58 /* BH_R_LookPack_CollectionViewCell.m */,
 			);
-			name = "BH_R_LookPack  看锦囊";
 			path = BH_R_LookPack;
 			sourceTree = "<group>";
 		};
-		18560BC61D48A945008A6C58 /* BH_R_AllFirstCell  第一分区的查看全部 */ = {
+		18560BC61D48A945008A6C58 /* BH_R_AllFirstCell  */ = {
 			isa = PBXGroup;
 			children = (
 				18560BC71D48A945008A6C58 /* BH_R_AllFirstCell_CollectionViewCell.h */,
 				18560BC81D48A945008A6C58 /* BH_R_AllFirstCell_CollectionViewCell.m */,
 			);
-			name = "BH_R_AllFirstCell  第一分区的查看全部";
-			path = BH_R_AllFirstCell;
+			path = "BH_R_AllFirstCell ";
 			sourceTree = "<group>";
 		};
-		18560BCA1D48ABA0008A6C58 /* BH_R_Cell_Model  各分区 */ = {
+		18560BCA1D48ABA0008A6C58 /* BH_R_Cell_Model  */ = {
 			isa = PBXGroup;
 			children = (
 				18560BCB1D48ABA0008A6C58 /* BH_R_SecondCell_Model.h */,
 				18560BCC1D48ABA0008A6C58 /* BH_R_SecondCell_Model.m */,
-				18560BCD1D48ABA0008A6C58 /* BH_R_ThirdCell_Model.h */,
-				18560BCE1D48ABA0008A6C58 /* BH_R_ThirdCell_Model.m */,
 				188547D71D5B3F380031B8F8 /* BH_R_Second_Detail_Model.h */,
 				188547D81D5B3F380031B8F8 /* BH_R_Second_Detail_Model.m */,
+				18560BCD1D48ABA0008A6C58 /* BH_R_ThirdCell_Model.h */,
+				18560BCE1D48ABA0008A6C58 /* BH_R_ThirdCell_Model.m */,
 			);
-			name = "BH_R_Cell_Model  各分区";
-			path = BH_R_Cell_Model;
+			path = "BH_R_Cell_Model ";
 			sourceTree = "<group>";
 		};
-		18560BE81D498FE5008A6C58 /* BH_R_AllFirstCell_Model  第一分区查看全部 */ = {
+		18560BE81D498FE5008A6C58 /* BH_R_AllFirstCell_Model  */ = {
 			isa = PBXGroup;
 			children = (
 				18560BE91D498FE5008A6C58 /* BH_R_AllFirstCell_Model.h */,
 				18560BEA1D498FE5008A6C58 /* BH_R_AllFirstCell_Model.m */,
 			);
-			name = "BH_R_AllFirstCell_Model  第一分区查看全部";
-			path = BH_R_AllFirstCell_Model;
+			path = "BH_R_AllFirstCell_Model ";
 			sourceTree = "<group>";
 		};
-		18560BEC1D499086008A6C58 /* BH_R_Search_VC  搜索 */ = {
+		18560BEC1D499086008A6C58 /* BH_R_Search_VC  */ = {
 			isa = PBXGroup;
 			children = (
 				18560BED1D499086008A6C58 /* BH_R_Search_VC.h */,
 				18560BEE1D499086008A6C58 /* BH_R_Search_VC.m */,
 			);
-			name = "BH_R_Search_VC  搜索";
-			path = BH_R_Search_VC;
+			path = "BH_R_Search_VC ";
 			sourceTree = "<group>";
 		};
-		18560C001D49CB18008A6C58 /* BH_D_Section_Details  目的地详情 */ = {
+		18560C001D49CB18008A6C58 /* BH_D_Section_Details  */ = {
 			isa = PBXGroup;
 			children = (
 				18560C011D49CB18008A6C58 /* BH_D_Section_Details_FirstDetails_CollectionViewCell.h */,
 				18560C021D49CB18008A6C58 /* BH_D_Section_Details_FirstDetails_CollectionViewCell.m */,
-				18560C031D49CB18008A6C58 /* BH_D_Section_Details_firstSec_Details_TableViewCell.h */,
-				18560C041D49CB18008A6C58 /* BH_D_Section_Details_firstSec_Details_TableViewCell.m */,
-				18C2C85C1D5217E500533639 /* BH_Map_TableViewCell.h */,
-				18C2C85D1D5217E500533639 /* BH_Map_TableViewCell.m */,
 				18560C051D49CB18008A6C58 /* BH_D_Section_Details_FirstSection_CollectionViewCell.h */,
 				18560C061D49CB18008A6C58 /* BH_D_Section_Details_FirstSection_CollectionViewCell.m */,
 				18560C071D49CB18008A6C58 /* BH_D_Section_Details_FirstSection_TableViewCell.h */,
 				18560C081D49CB18008A6C58 /* BH_D_Section_Details_FirstSection_TableViewCell.m */,
 				18560C091D49CB18008A6C58 /* BH_D_Section_Details_SecoundSection_TableViewCell.h */,
 				18560C0A1D49CB18008A6C58 /* BH_D_Section_Details_SecoundSection_TableViewCell.m */,
+				18560C031D49CB18008A6C58 /* BH_D_Section_Details_firstSec_Details_TableViewCell.h */,
+				18560C041D49CB18008A6C58 /* BH_D_Section_Details_firstSec_Details_TableViewCell.m */,
+				18C2C85C1D5217E500533639 /* BH_Map_TableViewCell.h */,
+				18C2C85D1D5217E500533639 /* BH_Map_TableViewCell.m */,
 			);
-			name = "BH_D_Section_Details  目的地详情";
-			path = BH_D_Section_Details;
+			path = "BH_D_Section_Details ";
 			sourceTree = "<group>";
 		};
-		18560C101D49CB23008A6C58 /* BH_D_HeaderView  头视图 */ = {
+		18560C101D49CB23008A6C58 /* BH_D_HeaderView   */ = {
 			isa = PBXGroup;
 			children = (
 				18560C111D49CB23008A6C58 /* BH_D_HeaderView.h */,
 				18560C121D49CB23008A6C58 /* BH_D_HeaderView.m */,
 			);
-			name = "BH_D_HeaderView  头视图";
-			path = BH_D_HeaderView;
+			path = "BH_D_HeaderView  ";
 			sourceTree = "<group>";
 		};
-		18560C141D49CBF0008A6C58 /* BH_C_ThirdItem_Model  寻旅伴 */ = {
+		18560C141D49CBF0008A6C58 /* BH_C_ThirdItem_Model  */ = {
 			isa = PBXGroup;
 			children = (
 				18560C151D49CBF0008A6C58 /* BH_C_ThirdItem_Model.h */,
 				18560C161D49CBF0008A6C58 /* BH_C_ThirdItem_Model.m */,
 			);
-			name = "BH_C_ThirdItem_Model  寻旅伴";
-			path = BH_C_ThirdItem_Model;
+			path = "BH_C_ThirdItem_Model ";
 			sourceTree = "<group>";
 		};
-		18560C181D49CBFA008A6C58 /* BH_C_FirstItem_Model  热议 */ = {
+		18560C181D49CBFA008A6C58 /* BH_C_FirstItem_Model  */ = {
 			isa = PBXGroup;
 			children = (
 				18560C191D49CBFA008A6C58 /* BH_C_FirstItem_Model.h */,
 				18560C1A1D49CBFA008A6C58 /* BH_C_FirstItem_Model.m */,
 			);
-			name = "BH_C_FirstItem_Model  热议";
-			path = BH_C_FirstItem_Model;
+			path = "BH_C_FirstItem_Model ";
 			sourceTree = "<group>";
 		};
-		186F8ED31D407B31000F2289 /* BH_R_Discount_VC  抢折扣 */ = {
+		186F8ED31D407B31000F2289 /* BH_R_Discount_VC  */ = {
 			isa = PBXGroup;
 			children = (
 				186F8EDA1D407B31000F2289 /* BH_R_Discount_VC.h */,
 				186F8EDB1D407B31000F2289 /* BH_R_Discount_VC.m */,
 			);
-			name = "BH_R_Discount_VC  抢折扣";
-			path = BH_R_Discount_VC;
+			path = "BH_R_Discount_VC ";
 			sourceTree = "<group>";
 		};
-		186F8EE01D407CAD000F2289 /* BH_R_HeaderView  头视图 */ = {
+		186F8EE01D407CAD000F2289 /* BH_R_HeaderView */ = {
 			isa = PBXGroup;
 			children = (
 				186F8EE11D407CAD000F2289 /* BH_R_HeaderView.h */,
@@ -918,95 +917,89 @@
 				186F8EE31D407CAD000F2289 /* BH_R_HeaderView_CollectionViewCell.h */,
 				186F8EE41D407CAD000F2289 /* BH_R_HeaderView_CollectionViewCell.m */,
 			);
-			name = "BH_R_HeaderView  头视图";
 			path = BH_R_HeaderView;
 			sourceTree = "<group>";
 		};
-		186F8EE71D407CB8000F2289 /* BH_R_Cell  各分区 */ = {
+		186F8EE71D407CB8000F2289 /* BH_R_Cell */ = {
 			isa = PBXGroup;
 			children = (
 				186F8EE81D407CB8000F2289 /* BH_R_FirstCell_TableViewCell.h */,
 				186F8EE91D407CB8000F2289 /* BH_R_FirstCell_TableViewCell.m */,
-				186F8EEC1D407CB8000F2289 /* BH_R_SecondCell_TableViewCell.h */,
-				186F8EED1D407CB8000F2289 /* BH_R_SecondCell_TableViewCell.m */,
 				186F8EEA1D407CB8000F2289 /* BH_R_SecondCell_CollectionViewCell.h */,
 				186F8EEB1D407CB8000F2289 /* BH_R_SecondCell_CollectionViewCell.m */,
+				186F8EEC1D407CB8000F2289 /* BH_R_SecondCell_TableViewCell.h */,
+				186F8EED1D407CB8000F2289 /* BH_R_SecondCell_TableViewCell.m */,
 				186F8EEE1D407CB8000F2289 /* BH_R_ThirdCell_TableViewCell.h */,
 				186F8EEF1D407CB8000F2289 /* BH_R_ThirdCell_TableViewCell.m */,
 			);
-			name = "BH_R_Cell  各分区";
 			path = BH_R_Cell;
 			sourceTree = "<group>";
 		};
-		186F8EF41D407CBF000F2289 /* BH_R_Discount_Section  抢折扣各分区 */ = {
+		186F8EF41D407CBF000F2289 /* BH_R_Discount_Section  */ = {
 			isa = PBXGroup;
 			children = (
 				186F8EF51D407CBF000F2289 /* BH_R_DisCount_FirstSection_TableViewCell.h */,
 				186F8EF61D407CBF000F2289 /* BH_R_DisCount_FirstSection_TableViewCell.m */,
+				186F8EF71D407CBF000F2289 /* BH_R_DisCount_FourSection_CollectionViewCell.h */,
+				186F8EF81D407CBF000F2289 /* BH_R_DisCount_FourSection_CollectionViewCell.m */,
+				186F8EF91D407CBF000F2289 /* BH_R_DisCount_FourSection_TableViewCell.h */,
+				186F8EFA1D407CBF000F2289 /* BH_R_DisCount_FourSection_TableViewCell.m */,
 				186F8EFB1D407CBF000F2289 /* BH_R_DisCount_SecondSection_TableViewCell.h */,
 				186F8EFC1D407CBF000F2289 /* BH_R_DisCount_SecondSection_TableViewCell.m */,
 				186F8EFD1D407CBF000F2289 /* BH_R_DisCount_ThirdSection_TableViewCell.h */,
 				186F8EFE1D407CBF000F2289 /* BH_R_DisCount_ThirdSection_TableViewCell.m */,
-				186F8EF91D407CBF000F2289 /* BH_R_DisCount_FourSection_TableViewCell.h */,
-				186F8EFA1D407CBF000F2289 /* BH_R_DisCount_FourSection_TableViewCell.m */,
-				186F8EF71D407CBF000F2289 /* BH_R_DisCount_FourSection_CollectionViewCell.h */,
-				186F8EF81D407CBF000F2289 /* BH_R_DisCount_FourSection_CollectionViewCell.m */,
 			);
-			name = "BH_R_Discount_Section  抢折扣各分区";
-			path = BH_R_Discount_Section;
+			path = "BH_R_Discount_Section ";
 			sourceTree = "<group>";
 		};
-		186F8F041D407D5F000F2289 /* BH_D_Section  目的地 */ = {
+		186F8F041D407D5F000F2289 /* BH_D_Section  */ = {
 			isa = PBXGroup;
 			children = (
-				186F8F071D407D5F000F2289 /* BH_D_FirstSection_TableViewCell.h */,
-				186F8F081D407D5F000F2289 /* BH_D_FirstSection_TableViewCell.m */,
 				186F8F051D407D5F000F2289 /* BH_D_FirstSection_CollectionViewCell.h */,
 				186F8F061D407D5F000F2289 /* BH_D_FirstSection_CollectionViewCell.m */,
-				186F8F0B1D407D5F000F2289 /* BH_D_SecondSection_TableViewCell.h */,
-				186F8F0C1D407D5F000F2289 /* BH_D_SecondSection_TableViewCell.m */,
+				186F8F071D407D5F000F2289 /* BH_D_FirstSection_TableViewCell.h */,
+				186F8F081D407D5F000F2289 /* BH_D_FirstSection_TableViewCell.m */,
 				186F8F091D407D5F000F2289 /* BH_D_SecondSection_CollectionViewCell.h */,
 				186F8F0A1D407D5F000F2289 /* BH_D_SecondSection_CollectionViewCell.m */,
+				186F8F0B1D407D5F000F2289 /* BH_D_SecondSection_TableViewCell.h */,
+				186F8F0C1D407D5F000F2289 /* BH_D_SecondSection_TableViewCell.m */,
 			);
-			name = "BH_D_Section  目的地";
-			path = BH_D_Section;
+			path = "BH_D_Section ";
 			sourceTree = "<group>";
 		};
-		186F8F111D407ED6000F2289 /* BH_C_SecondItem  版面 */ = {
+		186F8F111D407ED6000F2289 /* BH_C_SecondItem  */ = {
 			isa = PBXGroup;
 			children = (
-				186F8F161D407ED6000F2289 /* BH_C_SecondItem_CollectionViewCell.h */,
-				186F8F171D407ED6000F2289 /* BH_C_SecondItem_CollectionViewCell.m */,
-				186F8F141D407ED6000F2289 /* BH_C_NaviTableView_TableViewCell.h */,
-				186F8F151D407ED6000F2289 /* BH_C_NaviTableView_TableViewCell.m */,
 				186F8F121D407ED6000F2289 /* BH_C_GroupTableView_TableViewCell.h */,
 				186F8F131D407ED6000F2289 /* BH_C_GroupTableView_TableViewCell.m */,
+				186F8F141D407ED6000F2289 /* BH_C_NaviTableView_TableViewCell.h */,
+				186F8F151D407ED6000F2289 /* BH_C_NaviTableView_TableViewCell.m */,
+				186F8F161D407ED6000F2289 /* BH_C_SecondItem_CollectionViewCell.h */,
+				186F8F171D407ED6000F2289 /* BH_C_SecondItem_CollectionViewCell.m */,
 				181727361D4A45690025D396 /* BH_C_SecoundItem_Details_TableViewCell.h */,
 				181727371D4A45690025D396 /* BH_C_SecoundItem_Details_TableViewCell.m */,
 			);
-			name = "BH_C_SecondItem  版面";
-			path = BH_C_SecondItem;
+			path = "BH_C_SecondItem ";
 			sourceTree = "<group>";
 		};
-		186F8F1B1D407EDE000F2289 /* BH_C_FirstItem  热议 */ = {
+		186F8F1B1D407EDE000F2289 /* BH_C_FirstItem  */ = {
 			isa = PBXGroup;
 			children = (
 				186F8F1C1D407EDE000F2289 /* BH_C_FirstItem_CollectionViewCell.h */,
 				186F8F1D1D407EDE000F2289 /* BH_C_FirstItem_CollectionViewCell.m */,
-				186F8F241D407EDE000F2289 /* BH_C_ZeroBigPic_TableViewCell.h */,
-				186F8F251D407EDE000F2289 /* BH_C_ZeroBigPic_TableViewCell.m */,
 				186F8F1E1D407EDE000F2289 /* BH_C_OneBigPic_TableViewCell.h */,
 				186F8F1F1D407EDE000F2289 /* BH_C_OneBigPic_TableViewCell.m */,
-				186F8F221D407EDE000F2289 /* BH_C_TwoBigPic_TableViewCell.h */,
-				186F8F231D407EDE000F2289 /* BH_C_TwoBigPic_TableViewCell.m */,
 				186F8F201D407EDE000F2289 /* BH_C_ThreeBigPic_TableViewCell.h */,
 				186F8F211D407EDE000F2289 /* BH_C_ThreeBigPic_TableViewCell.m */,
+				186F8F221D407EDE000F2289 /* BH_C_TwoBigPic_TableViewCell.h */,
+				186F8F231D407EDE000F2289 /* BH_C_TwoBigPic_TableViewCell.m */,
+				186F8F241D407EDE000F2289 /* BH_C_ZeroBigPic_TableViewCell.h */,
+				186F8F251D407EDE000F2289 /* BH_C_ZeroBigPic_TableViewCell.m */,
 			);
-			name = "BH_C_FirstItem  热议";
-			path = BH_C_FirstItem;
+			path = "BH_C_FirstItem ";
 			sourceTree = "<group>";
 		};
-		186F8F2B1D407F37000F2289 /* BH_C_ThirdItem  寻旅伴 */ = {
+		186F8F2B1D407F37000F2289 /* BH_C_ThirdItem  */ = {
 			isa = PBXGroup;
 			children = (
 				186F8F2C1D407F37000F2289 /* BH_C_ThirdItem_CollectionViewCell.h */,
@@ -1014,35 +1007,32 @@
 				186F8F2E1D407F37000F2289 /* BH_C_ThirdItem_TableViewCell.h */,
 				186F8F2F1D407F37000F2289 /* BH_C_ThirdItem_TableViewCell.m */,
 			);
-			name = "BH_C_ThirdItem  寻旅伴";
-			path = BH_C_ThirdItem;
+			path = "BH_C_ThirdItem ";
 			sourceTree = "<group>";
 		};
-		186F8F391D408009000F2289 /* BH_C_SecondItem_Model  版面 */ = {
+		186F8F391D408009000F2289 /* BH_C_SecondItem_Model  */ = {
 			isa = PBXGroup;
 			children = (
-				186F8F3C1D408009000F2289 /* BH_C_SecondItem_Model.h */,
-				186F8F3D1D408009000F2289 /* BH_C_SecondItem_Model.m */,
 				186F8F3A1D408009000F2289 /* BH_C_SecondItem_Group_Model.h */,
 				186F8F3B1D408009000F2289 /* BH_C_SecondItem_Group_Model.m */,
+				186F8F3C1D408009000F2289 /* BH_C_SecondItem_Model.h */,
+				186F8F3D1D408009000F2289 /* BH_C_SecondItem_Model.m */,
 				181727331D4A44C70025D396 /* BH_C_SecoundItem_Details_Model.h */,
 				181727341D4A44C70025D396 /* BH_C_SecoundItem_Details_Model.m */,
 			);
-			name = "BH_C_SecondItem_Model  版面";
-			path = BH_C_SecondItem_Model;
+			path = "BH_C_SecondItem_Model ";
 			sourceTree = "<group>";
 		};
-		186F8F921D40ED3B000F2289 /* BH_R_AllFirstCell  第一分区的查看全部 */ = {
+		186F8F921D40ED3B000F2289 /* BH_R_AllFirstCell  */ = {
 			isa = PBXGroup;
 			children = (
 				186F8F931D40ED3B000F2289 /* BH_R_AllFirstCell_VC.h */,
 				186F8F941D40ED3B000F2289 /* BH_R_AllFirstCell_VC.m */,
 			);
-			name = "BH_R_AllFirstCell  第一分区的查看全部";
-			path = BH_R_Discount_VC/BH_R_AllFirstCell;
+			path = "BH_R_AllFirstCell ";
 			sourceTree = "<group>";
 		};
-		188338781D4C3C4F0031266E /* JXLDayAndNightMode  夜间模式 */ = {
+		188338781D4C3C4F0031266E /* JXLDayAndNightMode  */ = {
 			isa = PBXGroup;
 			children = (
 				188338791D4C3C4F0031266E /* JXLDayAndNightManager.h */,
@@ -1051,8 +1041,7 @@
 				1883387C1D4C3C4F0031266E /* UIView+JXLDAN.h */,
 				1883387D1D4C3C4F0031266E /* UIView+JXLDAN.m */,
 			);
-			name = "JXLDayAndNightMode  夜间模式";
-			path = JXLDayAndNightMode;
+			path = "JXLDayAndNightMode ";
 			sourceTree = "<group>";
 		};
 		188636DE1D537C060031AC02 /* BH_R_Search_Model */ = {
@@ -1064,25 +1053,23 @@
 			path = BH_R_Search_Model;
 			sourceTree = "<group>";
 		};
-		18C2C8331D51DFF500533639 /* BH_R_SearchCell  搜索 */ = {
+		18C2C8331D51DFF500533639 /* BH_R_SearchCell */ = {
 			isa = PBXGroup;
 			children = (
 				18C2C8341D51E29C00533639 /* BH_R_Search_TableViewCell.h */,
 				18C2C8351D51E29C00533639 /* BH_R_Search_TableViewCell.m */,
 			);
-			name = "BH_R_SearchCell  搜索";
 			path = BH_R_SearchCell;
 			sourceTree = "<group>";
 		};
-		18C3B13A1D4F396700B4EB53 /* MJRefresh 2  加载刷新 */ = {
+		18C3B13A1D4F396700B4EB53 /* MJRefresh 2  */ = {
 			isa = PBXGroup;
 			children = (
-				18C3B13B1D4F396700B4EB53 /* LICENSE */,
 				18C3B13C1D4F396700B4EB53 /* MJRefresh */,
+				18C3B13B1D4F396700B4EB53 /* LICENSE */,
 				18C3B1691D4F396700B4EB53 /* README.md */,
 			);
-			name = "MJRefresh 2  加载刷新";
-			path = "MJRefresh 2";
+			path = "MJRefresh 2 ";
 			sourceTree = "<group>";
 		};
 		18C3B13C1D4F396700B4EB53 /* MJRefresh */ = {
@@ -1181,24 +1168,11 @@
 		18F0CF331D35DAC000896510 = {
 			isa = PBXGroup;
 			children = (
+				18F0CF3D1D35DAC000896510 /* Products */,
 				18F0CF3E1D35DAC000896510 /* SummerQ */,
-				18C2C8511D51FF9A00533639 /* MAMapKit.framework */,
-				18C2C84F1D51FF1C00533639 /* CoreGraphics.framework */,
-				18C2C84D1D51FF0A00533639 /* SystemConfiguration.framework */,
-				18C2C84B1D51FEF500533639 /* Security.framework */,
-				18C2C8491D51FEE900533639 /* CoreTelephony.framework */,
-				18C2C8471D51FED900533639 /* AddressBook.framework */,
-				18C2C8451D51FECB00533639 /* AVFoundation.framework */,
-				18C2C8431D51FEB800533639 /* AudioToolbox.framework */,
-				18C2C8411D51FE5D00533639 /* libstdc++.6.0.9.tbd */,
-				18C2C83F1D51FE4100533639 /* libz.tbd */,
-				18C2C83D1D51FE3500533639 /* libc++.tbd */,
-				18C2C83B1D51FDD500533639 /* AMap.bundle */,
-				18C2C8371D51FCA900533639 /* AMapFoundationKit.framework */,
-				18C3B05E1D4E0BC800B4EB53 /* libsqlite3.0.tbd */,
 				18F0CF581D35DAC000896510 /* SummerQTests */,
 				18F0CF631D35DAC000896510 /* SummerQUITests */,
-				18F0CF3D1D35DAC000896510 /* Products */,
+				180D460A1DD9A25F00499BD8 /* framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1215,21 +1189,21 @@
 		18F0CF3E1D35DAC000896510 /* SummerQ */ = {
 			isa = PBXGroup;
 			children = (
-				18F0CF7F1D35E0EF00896510 /* Recommend  推荐 */,
-				1821A6871D362820005F83B1 /* Destination  目的地 */,
-				1821A6941D362A4F005F83B1 /* Community  社区 */,
-				1821A6A11D362B2C005F83B1 /* Mine  我的 */,
+				18F0CF721D35DE0800896510 /* Base */,
+				1821A6941D362A4F005F83B1 /* Community  */,
+				1821A6871D362820005F83B1 /* Destination  */,
+				1821A6A11D362B2C005F83B1 /* Mine */,
+				18F0CF7F1D35E0EF00896510 /* Recommend */,
+				18F0CF3F1D35DAC000896510 /* Supporting Files */,
 				18F0CF8C1D35E2D700896510 /* ThirdPart */,
 				18F0CFA11D35E33A00896510 /* Tools */,
-				18F0CF721D35DE0800896510 /* Base */,
 				18F0CF421D35DAC000896510 /* AppDelegate.h */,
 				18F0CF431D35DAC000896510 /* AppDelegate.m */,
-				1821A6AE1D362B99005F83B1 /* PrefixHeader.pch */,
-				18F0CF481D35DAC000896510 /* Main.storyboard */,
 				18F0CF4B1D35DAC000896510 /* Assets.xcassets */,
-				18F0CF4D1D35DAC000896510 /* LaunchScreen.storyboard */,
 				18F0CF501D35DAC000896510 /* Info.plist */,
-				18F0CF3F1D35DAC000896510 /* Supporting Files */,
+				18F0CF4D1D35DAC000896510 /* LaunchScreen.storyboard */,
+				18F0CF481D35DAC000896510 /* Main.storyboard */,
+				1821A6AE1D362B99005F83B1 /* PrefixHeader.pch */,
 			);
 			path = SummerQ;
 			sourceTree = "<group>";
@@ -1239,14 +1213,14 @@
 			children = (
 				18F0CF401D35DAC000896510 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		18F0CF581D35DAC000896510 /* SummerQTests */ = {
 			isa = PBXGroup;
 			children = (
-				18F0CF591D35DAC000896510 /* SummerQTests.m */,
 				18F0CF5B1D35DAC000896510 /* Info.plist */,
+				18F0CF591D35DAC000896510 /* SummerQTests.m */,
 			);
 			path = SummerQTests;
 			sourceTree = "<group>";
@@ -1254,8 +1228,8 @@
 		18F0CF631D35DAC000896510 /* SummerQUITests */ = {
 			isa = PBXGroup;
 			children = (
-				18F0CF641D35DAC000896510 /* SummerQUITests.m */,
 				18F0CF661D35DAC000896510 /* Info.plist */,
+				18F0CF641D35DAC000896510 /* SummerQUITests.m */,
 			);
 			path = SummerQUITests;
 			sourceTree = "<group>";
@@ -1297,27 +1271,26 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		18F0CF7F1D35E0EF00896510 /* Recommend  推荐 */ = {
+		18F0CF7F1D35E0EF00896510 /* Recommend */ = {
 			isa = PBXGroup;
 			children = (
 				18F0CF801D35E0EF00896510 /* Controller */,
 				18F0CF811D35E0EF00896510 /* Model */,
 				18F0CF821D35E0EF00896510 /* View */,
 			);
-			name = "Recommend  推荐";
 			path = Recommend;
 			sourceTree = "<group>";
 		};
 		18F0CF801D35E0EF00896510 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				186F8F921D40ED3B000F2289 /* BH_R_AllFirstCell  */,
+				18560BBE1D48A840008A6C58 /* BH_R_Cell_Deails_VC */,
+				186F8ED31D407B31000F2289 /* BH_R_Discount_VC  */,
+				18560BBA1D48A7FA008A6C58 /* BH_R_LookPack_VC */,
+				18560BEC1D499086008A6C58 /* BH_R_Search_VC  */,
 				18F0CF831D35E14D00896510 /* BH_Recommend_VC.h */,
 				18F0CF841D35E14D00896510 /* BH_Recommend_VC.m */,
-				18560BEC1D499086008A6C58 /* BH_R_Search_VC  搜索 */,
-				18560BBE1D48A840008A6C58 /* BH_R_Cell_Deails_VC  各分区的详情 */,
-				18560BBA1D48A7FA008A6C58 /* BH_R_LookPack_VC  看锦囊 */,
-				186F8ED31D407B31000F2289 /* BH_R_Discount_VC  抢折扣 */,
-				186F8F921D40ED3B000F2289 /* BH_R_AllFirstCell  第一分区的查看全部 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1325,11 +1298,11 @@
 		18F0CF811D35E0EF00896510 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				18560BE81D498FE5008A6C58 /* BH_R_AllFirstCell_Model  */,
+				18560BCA1D48ABA0008A6C58 /* BH_R_Cell_Model  */,
+				18560BAF1D48A6FD008A6C58 /* BH_R_Discount_Model  */,
+				18560BB31D48A707008A6C58 /* BH_R_LookPack_Model  */,
 				188636DE1D537C060031AC02 /* BH_R_Search_Model */,
-				18560BCA1D48ABA0008A6C58 /* BH_R_Cell_Model  各分区 */,
-				18560BB31D48A707008A6C58 /* BH_R_LookPack_Model  看锦囊 */,
-				18560BAF1D48A6FD008A6C58 /* BH_R_Discount_Model  抢折扣 */,
-				18560BE81D498FE5008A6C58 /* BH_R_AllFirstCell_Model  第一分区查看全部 */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1337,12 +1310,12 @@
 		18F0CF821D35E0EF00896510 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				18C2C8331D51DFF500533639 /* BH_R_SearchCell  搜索 */,
-				186F8EE01D407CAD000F2289 /* BH_R_HeaderView  头视图 */,
-				186F8EE71D407CB8000F2289 /* BH_R_Cell  各分区 */,
-				18560BC21D48A939008A6C58 /* BH_R_LookPack  看锦囊 */,
-				186F8EF41D407CBF000F2289 /* BH_R_Discount_Section  抢折扣各分区 */,
-				18560BC61D48A945008A6C58 /* BH_R_AllFirstCell  第一分区的查看全部 */,
+				18560BC61D48A945008A6C58 /* BH_R_AllFirstCell  */,
+				186F8EE71D407CB8000F2289 /* BH_R_Cell */,
+				186F8EF41D407CBF000F2289 /* BH_R_Discount_Section  */,
+				186F8EE01D407CAD000F2289 /* BH_R_HeaderView */,
+				18560BC21D48A939008A6C58 /* BH_R_LookPack */,
+				18C2C8331D51DFF500533639 /* BH_R_SearchCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1350,23 +1323,23 @@
 		18F0CF8C1D35E2D700896510 /* ThirdPart */ = {
 			isa = PBXGroup;
 			children = (
-				18C3B13A1D4F396700B4EB53 /* MJRefresh 2  加载刷新 */,
-				188338781D4C3C4F0031266E /* JXLDayAndNightMode  夜间模式 */,
-				18F3DA341D36723500EC2E2B /* SDCycleScrollView  轮播图 */,
-				18F0CF8D1D35E2D700896510 /* AFNetworking3  网络请求 */,
-				1821A6551D36246E005F83B1 /* SDWebImage  图片 */,
+				18F0CF8D1D35E2D700896510 /* AFNetworking3  */,
+				188338781D4C3C4F0031266E /* JXLDayAndNightMode  */,
+				18C3B13A1D4F396700B4EB53 /* MJRefresh 2  */,
+				18F3DA341D36723500EC2E2B /* SDCycleScrollView  */,
+				1821A6551D36246E005F83B1 /* SDWebImage  */,
 			);
 			path = ThirdPart;
 			sourceTree = "<group>";
 		};
-		18F0CF8D1D35E2D700896510 /* AFNetworking3  网络请求 */ = {
+		18F0CF8D1D35E2D700896510 /* AFNetworking3  */ = {
 			isa = PBXGroup;
 			children = (
 				18F0CF8E1D35E2D700896510 /* AFHTTPSessionManager.h */,
 				18F0CF8F1D35E2D700896510 /* AFHTTPSessionManager.m */,
-				18F0CF901D35E2D700896510 /* AFNetworking.h */,
 				18F0CF911D35E2D700896510 /* AFNetworkReachabilityManager.h */,
 				18F0CF921D35E2D700896510 /* AFNetworkReachabilityManager.m */,
+				18F0CF901D35E2D700896510 /* AFNetworking.h */,
 				18F0CF931D35E2D700896510 /* AFSecurityPolicy.h */,
 				18F0CF941D35E2D700896510 /* AFSecurityPolicy.m */,
 				18F0CF951D35E2D700896510 /* AFURLRequestSerialization.h */,
@@ -1376,24 +1349,23 @@
 				18F0CF991D35E2D700896510 /* AFURLSessionManager.h */,
 				18F0CF9A1D35E2D700896510 /* AFURLSessionManager.m */,
 			);
-			name = "AFNetworking3  网络请求";
-			path = AFNetworking3;
+			path = "AFNetworking3 ";
 			sourceTree = "<group>";
 		};
 		18F0CFA11D35E33A00896510 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				18FFF74C1D5497F800D94FD9 /* GetHeight  自适应高 */,
-				18FFF7351D54944F00D94FD9 /* AFNetworking  网络请求 */,
-				18FFF7381D54944F00D94FD9 /* Cache  缓存 */,
-				18FFF73B1D54944F00D94FD9 /* GuideManager  引导页 */,
-				18FFF73E1D54944F00D94FD9 /* SearchBar  搜索 */,
-				18FFF7411D54944F00D94FD9 /* SQLite  数据库 */,
+				18FFF7351D54944F00D94FD9 /* AFNetworking   */,
+				18FFF7381D54944F00D94FD9 /* Cache   */,
+				18FFF74C1D5497F800D94FD9 /* GetHeight   */,
+				18FFF73B1D54944F00D94FD9 /* GuideManager   */,
+				18FFF7411D54944F00D94FD9 /* SQLite  */,
+				18FFF73E1D54944F00D94FD9 /* SearchBar   */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		18F3DA341D36723500EC2E2B /* SDCycleScrollView  轮播图 */ = {
+		18F3DA341D36723500EC2E2B /* SDCycleScrollView  */ = {
 			isa = PBXGroup;
 			children = (
 				18F3DA351D36723500EC2E2B /* PageControl */,
@@ -1404,8 +1376,7 @@
 				18F3DA421D36723500EC2E2B /* UIView+SDExtension.h */,
 				18F3DA431D36723500EC2E2B /* UIView+SDExtension.m */,
 			);
-			name = "SDCycleScrollView  轮播图";
-			path = SDCycleScrollView;
+			path = "SDCycleScrollView ";
 			sourceTree = "<group>";
 		};
 		18F3DA351D36723500EC2E2B /* PageControl */ = {
@@ -1423,64 +1394,58 @@
 			path = PageControl;
 			sourceTree = "<group>";
 		};
-		18FFF7351D54944F00D94FD9 /* AFNetworking  网络请求 */ = {
+		18FFF7351D54944F00D94FD9 /* AFNetworking   */ = {
 			isa = PBXGroup;
 			children = (
 				18FFF7361D54944F00D94FD9 /* BHNetTool.h */,
 				18FFF7371D54944F00D94FD9 /* BHNetTool.m */,
 			);
-			name = "AFNetworking  网络请求";
-			path = AFNetworking;
+			path = "AFNetworking  ";
 			sourceTree = "<group>";
 		};
-		18FFF7381D54944F00D94FD9 /* Cache  缓存 */ = {
+		18FFF7381D54944F00D94FD9 /* Cache   */ = {
 			isa = PBXGroup;
 			children = (
 				18FFF7391D54944F00D94FD9 /* BHCacheTool.h */,
 				18FFF73A1D54944F00D94FD9 /* BHCacheTool.m */,
 			);
-			name = "Cache  缓存";
-			path = Cache;
+			path = "Cache  ";
 			sourceTree = "<group>";
 		};
-		18FFF73B1D54944F00D94FD9 /* GuideManager  引导页 */ = {
+		18FFF73B1D54944F00D94FD9 /* GuideManager   */ = {
 			isa = PBXGroup;
 			children = (
 				18FFF73C1D54944F00D94FD9 /* KSGuideManager.h */,
 				18FFF73D1D54944F00D94FD9 /* KSGuideManager.m */,
 			);
-			name = "GuideManager  引导页";
-			path = GuideManager;
+			path = "GuideManager  ";
 			sourceTree = "<group>";
 		};
-		18FFF73E1D54944F00D94FD9 /* SearchBar  搜索 */ = {
+		18FFF73E1D54944F00D94FD9 /* SearchBar   */ = {
 			isa = PBXGroup;
 			children = (
 				18FFF73F1D54944F00D94FD9 /* BHSearchBar.h */,
 				18FFF7401D54944F00D94FD9 /* BHSearchBar.m */,
 			);
-			name = "SearchBar  搜索";
-			path = SearchBar;
+			path = "SearchBar  ";
 			sourceTree = "<group>";
 		};
-		18FFF7411D54944F00D94FD9 /* SQLite  数据库 */ = {
+		18FFF7411D54944F00D94FD9 /* SQLite  */ = {
 			isa = PBXGroup;
 			children = (
 				18FFF7421D54944F00D94FD9 /* BHSJK.h */,
 				18FFF7431D54944F00D94FD9 /* BHSJK.m */,
 			);
-			name = "SQLite  数据库";
-			path = SQLite;
+			path = "SQLite ";
 			sourceTree = "<group>";
 		};
-		18FFF74C1D5497F800D94FD9 /* GetHeight  自适应高 */ = {
+		18FFF74C1D5497F800D94FD9 /* GetHeight   */ = {
 			isa = PBXGroup;
 			children = (
 				18FFF74D1D5497F800D94FD9 /* GetHeightTools.h */,
 				18FFF74E1D5497F800D94FD9 /* GetHeightTools.m */,
 			);
-			name = "GetHeight  自适应高";
-			path = GetHeight;
+			path = "GetHeight  ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1803,6 +1768,7 @@
 				18F0CF491D35DAC000896510 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		18F0CF4D1D35DAC000896510 /* LaunchScreen.storyboard */ = {
@@ -1811,6 +1777,7 @@
 				18F0CF4E1D35DAC000896510 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
