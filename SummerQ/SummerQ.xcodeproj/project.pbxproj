@@ -95,20 +95,7 @@
 		188547D91D5B3F380031B8F8 /* BH_R_Second_Detail_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 188547D81D5B3F380031B8F8 /* BH_R_Second_Detail_Model.m */; };
 		188636E11D537C060031AC02 /* BH_R_Search_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 188636E01D537C060031AC02 /* BH_R_Search_Model.m */; };
 		18C2C8361D51E29C00533639 /* BH_R_Search_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2C8351D51E29C00533639 /* BH_R_Search_TableViewCell.m */; };
-		18C2C8381D51FCA900533639 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C8371D51FCA900533639 /* AMapFoundationKit.framework */; };
-		18C2C83C1D51FDD500533639 /* AMap.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C83B1D51FDD500533639 /* AMap.bundle */; };
-		18C2C83E1D51FE3500533639 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C83D1D51FE3500533639 /* libc++.tbd */; };
-		18C2C8401D51FE4100533639 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C83F1D51FE4100533639 /* libz.tbd */; };
-		18C2C8421D51FE5D00533639 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C8411D51FE5D00533639 /* libstdc++.6.0.9.tbd */; };
-		18C2C8441D51FEB800533639 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C8431D51FEB800533639 /* AudioToolbox.framework */; };
 		18C2C8461D51FECB00533639 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C8451D51FECB00533639 /* AVFoundation.framework */; };
-		18C2C8481D51FED900533639 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C8471D51FED900533639 /* AddressBook.framework */; };
-		18C2C84A1D51FEEA00533639 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C8491D51FEE900533639 /* CoreTelephony.framework */; };
-		18C2C84C1D51FEF500533639 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C84B1D51FEF500533639 /* Security.framework */; };
-		18C2C84E1D51FF0A00533639 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C84D1D51FF0A00533639 /* SystemConfiguration.framework */; };
-		18C2C8501D51FF1C00533639 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C84F1D51FF1C00533639 /* CoreGraphics.framework */; };
-		18C2C8521D51FF9A00533639 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C8511D51FF9A00533639 /* MAMapKit.framework */; };
-		18C2C8581D52018900533639 /* BH_Map_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2C8571D52018900533639 /* BH_Map_VC.m */; };
 		18C2C85B1D52033900533639 /* BH_Map_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2C85A1D52033900533639 /* BH_Map_Model.m */; };
 		18C2C85E1D5217E500533639 /* BH_Map_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2C85D1D5217E500533639 /* BH_Map_TableViewCell.m */; };
 		18C3B05F1D4E0BC800B4EB53 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C3B05E1D4E0BC800B4EB53 /* libsqlite3.0.tbd */; };
@@ -364,21 +351,7 @@
 		188636E01D537C060031AC02 /* BH_R_Search_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BH_R_Search_Model.m; sourceTree = "<group>"; };
 		18C2C8341D51E29C00533639 /* BH_R_Search_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BH_R_Search_TableViewCell.h; sourceTree = "<group>"; };
 		18C2C8351D51E29C00533639 /* BH_R_Search_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BH_R_Search_TableViewCell.m; sourceTree = "<group>"; };
-		18C2C8371D51FCA900533639 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
-		18C2C83B1D51FDD500533639 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = ../MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
-		18C2C83D1D51FE3500533639 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		18C2C83F1D51FE4100533639 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		18C2C8411D51FE5D00533639 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
-		18C2C8431D51FEB800533639 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		18C2C8451D51FECB00533639 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		18C2C8471D51FED900533639 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
-		18C2C8491D51FEE900533639 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		18C2C84B1D51FEF500533639 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		18C2C84D1D51FF0A00533639 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		18C2C84F1D51FF1C00533639 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		18C2C8511D51FF9A00533639 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
-		18C2C8561D52018900533639 /* BH_Map_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BH_Map_VC.h; sourceTree = "<group>"; };
-		18C2C8571D52018900533639 /* BH_Map_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BH_Map_VC.m; sourceTree = "<group>"; };
 		18C2C8591D52033900533639 /* BH_Map_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BH_Map_Model.h; sourceTree = "<group>"; };
 		18C2C85A1D52033900533639 /* BH_Map_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BH_Map_Model.m; sourceTree = "<group>"; };
 		18C2C85C1D5217E500533639 /* BH_Map_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BH_Map_TableViewCell.h; sourceTree = "<group>"; };
@@ -496,19 +469,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C2C8521D51FF9A00533639 /* MAMapKit.framework in Frameworks */,
-				18C2C8501D51FF1C00533639 /* CoreGraphics.framework in Frameworks */,
-				18C2C84E1D51FF0A00533639 /* SystemConfiguration.framework in Frameworks */,
-				18C2C84C1D51FEF500533639 /* Security.framework in Frameworks */,
-				18C2C84A1D51FEEA00533639 /* CoreTelephony.framework in Frameworks */,
-				18C2C8481D51FED900533639 /* AddressBook.framework in Frameworks */,
 				18C2C8461D51FECB00533639 /* AVFoundation.framework in Frameworks */,
-				18C2C8441D51FEB800533639 /* AudioToolbox.framework in Frameworks */,
-				18C2C8421D51FE5D00533639 /* libstdc++.6.0.9.tbd in Frameworks */,
-				18C2C8401D51FE4100533639 /* libz.tbd in Frameworks */,
-				18C2C83E1D51FE3500533639 /* libc++.tbd in Frameworks */,
-				18C2C83C1D51FDD500533639 /* AMap.bundle in Frameworks */,
-				18C2C8381D51FCA900533639 /* AMapFoundationKit.framework in Frameworks */,
 				18C3B05F1D4E0BC800B4EB53 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,20 +494,8 @@
 		180D460A1DD9A25F00499BD8 /* framework */ = {
 			isa = PBXGroup;
 			children = (
-				18C2C83B1D51FDD500533639 /* AMap.bundle */,
-				18C2C8371D51FCA900533639 /* AMapFoundationKit.framework */,
 				18C2C8451D51FECB00533639 /* AVFoundation.framework */,
-				18C2C8471D51FED900533639 /* AddressBook.framework */,
-				18C2C8431D51FEB800533639 /* AudioToolbox.framework */,
-				18C2C84F1D51FF1C00533639 /* CoreGraphics.framework */,
-				18C2C8491D51FEE900533639 /* CoreTelephony.framework */,
-				18C2C8511D51FF9A00533639 /* MAMapKit.framework */,
-				18C2C84B1D51FEF500533639 /* Security.framework */,
-				18C2C84D1D51FF0A00533639 /* SystemConfiguration.framework */,
-				18C2C83D1D51FE3500533639 /* libc++.tbd */,
 				18C3B05E1D4E0BC800B4EB53 /* libsqlite3.0.tbd */,
-				18C2C8411D51FE5D00533639 /* libstdc++.6.0.9.tbd */,
-				18C2C83F1D51FE4100533639 /* libz.tbd */,
 			);
 			path = framework;
 			sourceTree = "<group>";
@@ -761,8 +710,6 @@
 				18560B631D485242008A6C58 /* BH_D_Section_Details_VC.m */,
 				180C00D71D5419DB00F0585E /* BH_D_Section_WU_VC.h */,
 				180C00D81D5419DB00F0585E /* BH_D_Section_WU_VC.m */,
-				18C2C8561D52018900533639 /* BH_Map_VC.h */,
-				18C2C8571D52018900533639 /* BH_Map_VC.m */,
 			);
 			path = BH_D_Section_Details_VC;
 			sourceTree = "<group>";
@@ -1611,7 +1558,6 @@
 				18F0CFA01D35E2D700896510 /* AFURLSessionManager.m in Sources */,
 				1821A68D1D362864005F83B1 /* BH_Destination_VC.m in Sources */,
 				180C00D91D5419DB00F0585E /* BH_D_Section_WU_VC.m in Sources */,
-				18C2C8581D52018900533639 /* BH_Map_VC.m in Sources */,
 				1821A6831D36246E005F83B1 /* UIImage+WebP.m in Sources */,
 				186F8F301D407F37000F2289 /* BH_C_ThirdItem_CollectionViewCell.m in Sources */,
 				1821A6781D36246E005F83B1 /* NSData+ImageContentType.m in Sources */,

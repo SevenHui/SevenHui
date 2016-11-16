@@ -13,7 +13,6 @@
 #import "BH_D_Section_Details_FirstSec_Details_Model.h"
 #import "BHSJK.h"
 #import "BH_M_Collect_VC.h"
-#import "BH_Map_VC.h"
 #import "BH_Map_Model.h"
 #import "BH_Map_TableViewCell.h"
 @interface BH_D_Section_Details_FirstSec_Details_VC ()
@@ -248,17 +247,6 @@
         return 150 * lfheight;
     }
     return 220 * lfheight;
-}
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    if (indexPath.row == 0) {
-        BH_Map_VC *mapVC = [[BH_Map_VC alloc] init];
-        
-        mapVC.strO = self.strOne;
-        mapVC.strT = self.strTwo;
-        
-        [self.navigationController pushViewController:mapVC animated:YES];
-        
-    }
 }
 #pragma mark - 热门城市详情数据解析
 -(void)getDataFromJson{
